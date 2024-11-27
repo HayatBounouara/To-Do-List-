@@ -1,0 +1,60 @@
+body{
+
+    height: 400px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+input{
+    padding:5px;
+    height:13px;
+    width:250px;
+    border:solid 1px gray;
+    border-radius: 2px;
+    margin-right:5px;
+    margin-bottom:5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+button{
+    background:transparent;
+    margin:auto;
+    padding: auto;
+    border:none;
+    cursor:pointer;
+    border-radius: 50%;
+    
+}
+
+
+ul  {
+    list-style:none;
+   padding: 0;
+}
+
+ul li  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon{
+
+    font-size:20px;
+    margin-right: 5px;
+   
+
+
+}
